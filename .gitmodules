@@ -1,0 +1,7 @@
+[submodule "pcb/libraries/kicad-lkbd"]
+	path = pcb/libraries/kicad-lkbd
+	url = https://github.com/lambdakb/kicad-lkbd.git
+
+[submodule "pcb2/libraries/kicad-lkbd"]
+	path = pcb/libraries/kicad-lkbd
+	url = https://github.com/lambdakb/kicad-lkbd.git
