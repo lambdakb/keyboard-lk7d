@@ -145,13 +145,13 @@
 	(net 12 "Net-(D6-A)")
 	(net 13 "Net-(D7-A)")
 	(net 14 "Net-(D8-A)")
-	(net 15 "Net-(LED1-VDD)")
+	(net 15 "Net-(LED1-DOUT)")
 	(net 16 "/LED")
 	(net 17 "+5V")
-	(net 18 "Net-(LED2-VDD)")
-	(net 19 "Net-(LED3-VDD)")
-	(net 20 "Net-(LED4-VDD)")
-	(net 21 "Net-(LED5-VDD)")
+	(net 18 "Net-(LED2-DOUT)")
+	(net 19 "Net-(LED3-DOUT)")
+	(net 20 "Net-(LED4-DOUT)")
+	(net 21 "Net-(LED5-DOUT)")
 	(net 22 "unconnected-(LED6-DOUT-Pad1)")
 	(net 23 "/ROW0")
 	(net 24 "/ROW1")
@@ -514,7 +514,7 @@
 		(property ki_fp_filters "PinHeader_1x04_P2.54mm*")
 		(path "/c484ff00-c42c-40fa-bd7e-dbe1503b232f")
 		(sheetname "/")
-		(sheetfile "pcb2.kicad_sch")
+		(sheetfile "lk7d-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -1.8 -5.61)
@@ -846,7 +846,7 @@
 		(property ki_fp_filters "RotaryEncoder*Switch*")
 		(path "/e6cc614f-3b5d-4241-bad7-346305bd7e1f")
 		(sheetname "/")
-		(sheetfile "pcb2.kicad_sch")
+		(sheetfile "lk7d-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -5.9 -1.75)
@@ -1425,7 +1425,7 @@
 		)
 		(path "/6e9d3c4b-0be3-4a12-ab5b-cc05aea4d1c5")
 		(sheetname "/")
-		(sheetfile "pcb2.kicad_sch")
+		(sheetfile "lk7d-pcb.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -8.89 -1.05)
@@ -2482,7 +2482,7 @@
 		(property ki_fp_filters "PinHeader_1x04_P2.54mm*")
 		(path "/4166cb72-d539-40c9-848f-f647937efc55")
 		(sheetname "/")
-		(sheetfile "pcb2.kicad_sch")
+		(sheetfile "lk7d-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -1.8 -5.59)
@@ -2925,7 +2925,7 @@
 		(property ki_fp_filters "RotaryEncoder*Switch*")
 		(path "/6523fad5-be14-4361-99ca-112f3d2a07ec")
 		(sheetname "/")
-		(sheetfile "pcb2.kicad_sch")
+		(sheetfile "lk7d-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -5.9 -1.75)
@@ -3593,7 +3593,7 @@
 		(property ki_fp_filters "D*DO?35*")
 		(path "/a273c558-fe2b-4e5c-a798-6385e7556676")
 		(sheetname "/")
-		(sheetfile "pcb2.kicad_sch")
+		(sheetfile "lk7d-pcb.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.36 -1)
@@ -3876,7 +3876,7 @@
 				(justify mirror)
 			)
 		)
-		(property "JLC" "D2LS"
+		(property "JLC" "SMD"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -3918,7 +3918,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C3823622"
+		(property "LCSC" "C2803348"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -3934,7 +3934,7 @@
 		)
 		(path "/99d0b9e7-ce36-4292-9cdc-268c3ad4cda8")
 		(sheetname "/")
-		(sheetfile "pcb2.kicad_sch")
+		(sheetfile "lk7d-pcb.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -7 6.6)
@@ -4575,7 +4575,7 @@
 				(justify mirror)
 			)
 		)
-		(property "JLC" "D2LS"
+		(property "JLC" "SMD"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -4617,7 +4617,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C3823622"
+		(property "LCSC" "C2803348"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -4633,7 +4633,7 @@
 		)
 		(path "/e6596ba8-528b-4752-94be-9c63358e1942")
 		(sheetname "/")
-		(sheetfile "pcb2.kicad_sch")
+		(sheetfile "lk7d-pcb.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -7 6.6)
@@ -5335,7 +5335,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/afa0b00b-6227-4b9c-9f97-35be1d72c8f4")
 		(sheetname "/")
-		(sheetfile "pcb2.kicad_sch")
+		(sheetfile "lk7d-pcb.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.711252 -0.91)
@@ -5539,10 +5539,38 @@
 				(justify mirror)
 			)
 		)
+		(property "JLC" "SMD"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "b0d062a3-9092-4352-959d-e3bba67cea13")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "762ccb14-9229-48eb-a084-ab3c666524ae")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "LED*SK6812MINI*PLCC*3.5x3.5mm*P1.75mm*")
 		(path "/92d833bd-d001-4ee4-8969-f31f3a524937")
 		(sheetname "/")
-		(sheetfile "pcb2.kicad_sch")
+		(sheetfile "lk7d-pcb.kicad_sch")
 		(attr smd)
 		(fp_poly
 			(pts
@@ -5748,7 +5776,7 @@
 			(size 0.82 1.4)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.1)
-			(net 18 "Net-(LED2-VDD)")
+			(net 18 "Net-(LED2-DOUT)")
 			(pinfunction "DOUT")
 			(pintype "output")
 			(uuid "2b3fc336-b027-43bc-a521-d5c86705432f")
@@ -5770,7 +5798,7 @@
 			(roundrect_rratio 0.1)
 			(chamfer_ratio 0.5)
 			(chamfer bottom_left)
-			(net 15 "Net-(LED1-VDD)")
+			(net 15 "Net-(LED1-DOUT)")
 			(pinfunction "DIN")
 			(pintype "input")
 			(uuid "8b76fcc6-01d3-466a-943b-a390392eb8a8")
@@ -5915,7 +5943,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/0915bb26-3b7d-41c3-a525-c9bfee74b5b4")
 		(sheetname "/")
-		(sheetfile "pcb2.kicad_sch")
+		(sheetfile "lk7d-pcb.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.711252 0.91)
@@ -6119,10 +6147,38 @@
 				(justify mirror)
 			)
 		)
+		(property "JLC" "SMD"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "bdf924e4-2203-4b67-b44e-d9df48cb1cfb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "55432b87-bb7c-45ef-a673-679c4f661661")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "LED*SK6812MINI*PLCC*3.5x3.5mm*P1.75mm*")
 		(path "/c871a8b5-99c6-4666-9133-049f51c499a5")
 		(sheetname "/")
-		(sheetfile "pcb2.kicad_sch")
+		(sheetfile "lk7d-pcb.kicad_sch")
 		(attr smd)
 		(fp_poly
 			(pts
@@ -6328,7 +6384,7 @@
 			(size 0.82 1.4)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.1)
-			(net 15 "Net-(LED1-VDD)")
+			(net 15 "Net-(LED1-DOUT)")
 			(pinfunction "DOUT")
 			(pintype "output")
 			(uuid "746f756c-55ce-4f99-b5fc-6d26184d77a8")
@@ -6434,7 +6490,7 @@
 				(justify mirror)
 			)
 		)
-		(property "JLC" "D2LS"
+		(property "JLC" "SMD"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -6476,7 +6532,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C3823622"
+		(property "LCSC" "C2803348"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -6492,7 +6548,7 @@
 		)
 		(path "/b92165c2-8aa8-4fe9-a539-aca816d1e7c0")
 		(sheetname "/")
-		(sheetfile "pcb2.kicad_sch")
+		(sheetfile "lk7d-pcb.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -7 6.6)
@@ -7222,7 +7278,7 @@
 		(property ki_fp_filters "D*DO?35*")
 		(path "/984f5384-9613-4464-9855-bf87fc73e228")
 		(sheetname "/")
-		(sheetfile "pcb2.kicad_sch")
+		(sheetfile "lk7d-pcb.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.36 -1)
@@ -7505,7 +7561,7 @@
 				(justify mirror)
 			)
 		)
-		(property "JLC" "D2LS"
+		(property "JLC" "SMD"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -7547,7 +7603,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C3823622"
+		(property "LCSC" "C2803348"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -7563,7 +7619,7 @@
 		)
 		(path "/74b27c0d-ca6b-47c9-9f48-c2681090acbb")
 		(sheetname "/")
-		(sheetfile "pcb2.kicad_sch")
+		(sheetfile "lk7d-pcb.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -7 6.6)
@@ -8293,7 +8349,7 @@
 		(property ki_fp_filters "D*DO?35*")
 		(path "/493b9d48-58a7-4f0d-b8e9-42c562a0c74f")
 		(sheetname "/")
-		(sheetfile "pcb2.kicad_sch")
+		(sheetfile "lk7d-pcb.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.36 -1)
@@ -8580,10 +8636,38 @@
 				(justify mirror)
 			)
 		)
+		(property "JLC" "SMD"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "5d9becf8-7058-48c2-98cc-e3a82d8f7293")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "bd448671-5f28-41e8-a325-29cf73171f75")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "LED*SK6812MINI*PLCC*3.5x3.5mm*P1.75mm*")
 		(path "/1612b5e3-1267-4e05-8c4f-09de09b10d7f")
 		(sheetname "/")
-		(sheetfile "pcb2.kicad_sch")
+		(sheetfile "lk7d-pcb.kicad_sch")
 		(attr smd)
 		(fp_poly
 			(pts
@@ -8811,7 +8895,7 @@
 			(roundrect_rratio 0.1)
 			(chamfer_ratio 0.5)
 			(chamfer bottom_left)
-			(net 21 "Net-(LED5-VDD)")
+			(net 21 "Net-(LED5-DOUT)")
 			(pinfunction "DIN")
 			(pintype "input")
 			(uuid "e10c3f8d-e5f2-4d71-8e9e-eda0ade8a820")
@@ -8984,7 +9068,7 @@
 		(property ki_fp_filters "D*DO?35*")
 		(path "/0f702c7d-9890-45ad-a22a-90cd5bada367")
 		(sheetname "/")
-		(sheetfile "pcb2.kicad_sch")
+		(sheetfile "lk7d-pcb.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.36 -1)
@@ -9356,7 +9440,7 @@
 		(property ki_fp_filters "D*DO?35*")
 		(path "/383f0428-151f-4aa4-bec9-f2c0189cd911")
 		(sheetname "/")
-		(sheetfile "pcb2.kicad_sch")
+		(sheetfile "lk7d-pcb.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.36 -1)
@@ -9639,7 +9723,7 @@
 				(justify mirror)
 			)
 		)
-		(property "JLC" "D2LS"
+		(property "JLC" "SMD"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -9681,7 +9765,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C3823622"
+		(property "LCSC" "C2803348"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -9697,7 +9781,7 @@
 		)
 		(path "/e9909bdb-30aa-4f5c-aa39-054f2e64776d")
 		(sheetname "/")
-		(sheetfile "pcb2.kicad_sch")
+		(sheetfile "lk7d-pcb.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -7 6.6)
@@ -10427,7 +10511,7 @@
 		(property ki_fp_filters "D*DO?35*")
 		(path "/c1559d4a-30ac-4f69-8168-911d2800eb0f")
 		(sheetname "/")
-		(sheetfile "pcb2.kicad_sch")
+		(sheetfile "lk7d-pcb.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.36 -1)
@@ -10714,10 +10798,38 @@
 				(justify mirror)
 			)
 		)
+		(property "JLC" "SMD"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "f93e3d58-e526-4a79-b388-8b8ecbc4892a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "3c00bb1a-e990-4652-89b5-74f726aeb794")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "LED*SK6812MINI*PLCC*3.5x3.5mm*P1.75mm*")
 		(path "/07e8e7ef-922d-4a4a-b570-4cc17e0249c7")
 		(sheetname "/")
-		(sheetfile "pcb2.kicad_sch")
+		(sheetfile "lk7d-pcb.kicad_sch")
 		(attr smd)
 		(fp_poly
 			(pts
@@ -10923,7 +11035,7 @@
 			(size 0.82 1.4)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.1)
-			(net 21 "Net-(LED5-VDD)")
+			(net 21 "Net-(LED5-DOUT)")
 			(pinfunction "DOUT")
 			(pintype "output")
 			(uuid "71080fa3-a418-48bb-a1d4-5aa52f61542a")
@@ -10945,7 +11057,7 @@
 			(roundrect_rratio 0.1)
 			(chamfer_ratio 0.5)
 			(chamfer bottom_left)
-			(net 20 "Net-(LED4-VDD)")
+			(net 20 "Net-(LED4-DOUT)")
 			(pinfunction "DIN")
 			(pintype "input")
 			(uuid "e61a0c76-5a00-4bad-8b95-797fadbbca85")
@@ -11029,7 +11141,7 @@
 				(justify mirror)
 			)
 		)
-		(property "JLC" "D2LS"
+		(property "JLC" "SMD"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -11071,7 +11183,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C3823622"
+		(property "LCSC" "C2803348"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -11087,7 +11199,7 @@
 		)
 		(path "/f3878865-d00f-4b14-af73-42f5377cefa8")
 		(sheetname "/")
-		(sheetfile "pcb2.kicad_sch")
+		(sheetfile "lk7d-pcb.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -7 6.6)
@@ -11731,10 +11843,38 @@
 				(justify mirror)
 			)
 		)
+		(property "JLC" "SMD"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "33806173-0480-4553-923c-569e34194bcd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "772c2078-7e44-4ff9-8eb3-f1c701fb3650")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "LED*SK6812MINI*PLCC*3.5x3.5mm*P1.75mm*")
 		(path "/9c5f70aa-2999-4c7a-a622-1b54d93a3679")
 		(sheetname "/")
-		(sheetfile "pcb2.kicad_sch")
+		(sheetfile "lk7d-pcb.kicad_sch")
 		(attr smd)
 		(fp_poly
 			(pts
@@ -11940,7 +12080,7 @@
 			(size 0.82 1.4)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.1)
-			(net 19 "Net-(LED3-VDD)")
+			(net 19 "Net-(LED3-DOUT)")
 			(pinfunction "DOUT")
 			(pintype "output")
 			(uuid "d874188e-872c-4ff5-8df5-15c255045bd2")
@@ -11962,7 +12102,7 @@
 			(roundrect_rratio 0.1)
 			(chamfer_ratio 0.5)
 			(chamfer bottom_left)
-			(net 18 "Net-(LED2-VDD)")
+			(net 18 "Net-(LED2-DOUT)")
 			(pinfunction "DIN")
 			(pintype "input")
 			(uuid "0aa0e2e4-1f38-4216-b9c6-03256cf5c6a7")
@@ -12135,7 +12275,7 @@
 		(property ki_fp_filters "D*DO?35*")
 		(path "/1d3c895f-988e-43fb-aac1-b4a3e4cab929")
 		(sheetname "/")
-		(sheetfile "pcb2.kicad_sch")
+		(sheetfile "lk7d-pcb.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.36 -1)
@@ -12422,10 +12562,38 @@
 				(justify mirror)
 			)
 		)
+		(property "JLC" "SMD"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "2492869b-3477-4d5f-8cd9-7fb74a366e7d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "9837ae74-c5e9-4e4c-83a1-8e2d04162872")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "LED*SK6812MINI*PLCC*3.5x3.5mm*P1.75mm*")
 		(path "/a90a0dd4-222b-41b4-9e5b-d6f377e0370d")
 		(sheetname "/")
-		(sheetfile "pcb2.kicad_sch")
+		(sheetfile "lk7d-pcb.kicad_sch")
 		(attr smd)
 		(fp_poly
 			(pts
@@ -12631,7 +12799,7 @@
 			(size 0.82 1.4)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.1)
-			(net 20 "Net-(LED4-VDD)")
+			(net 20 "Net-(LED4-DOUT)")
 			(pinfunction "DOUT")
 			(pintype "output")
 			(uuid "8e4e587b-4e3d-4bf6-99f0-9dbde69ee9f0")
@@ -12653,7 +12821,7 @@
 			(roundrect_rratio 0.1)
 			(chamfer_ratio 0.5)
 			(chamfer bottom_left)
-			(net 19 "Net-(LED3-VDD)")
+			(net 19 "Net-(LED3-DOUT)")
 			(pinfunction "DIN")
 			(pintype "input")
 			(uuid "26ea5fc4-d3c3-44da-8023-6c76ca425e8c")
@@ -12962,7 +13130,7 @@
 		(property ki_fp_filters "D*DO?35*")
 		(path "/d3c483bd-9f6b-4d21-b4d8-60d809b0dd2b")
 		(sheetname "/")
-		(sheetfile "pcb2.kicad_sch")
+		(sheetfile "lk7d-pcb.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.36 -1)
