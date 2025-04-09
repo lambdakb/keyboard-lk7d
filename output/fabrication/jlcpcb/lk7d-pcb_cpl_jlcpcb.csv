@@ -22,4 +22,3 @@ Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
 "SW7","SW_Push","SW_MX_HotSwap_sqSilk",58.5750,-77.6250,180.0000,bottom
 "SW8","SW_Push","SW_MX_HotSwap_sqSilk",77.6250,-77.6250,180.0000,bottom
 "U1","XIAO-RP2040","MCU_XIAO-RP2040",58.5750,-31.5450,0.0000,top
-"U2","SN74LV1T125DBV","SOT-23-5",72.7482,-68.1000,0.0000,bottom
