@@ -15,10 +15,10 @@ This was created as an experiment to learn more about designing PCBs and to have
 | :---------------------------: | :-------------------------: |
 | [![PCB Front]][PCB Front PNG] | [![PCB Back]][PCB Back PNG] |
 
-[PCB Front]: output/img/lk7d-pcb-top.svg
-[PCB Front PNG]: output/img/lk7d-pcb-top.png
-[PCB Back]: output/img/lk7d-pcb-bottom.svg
-[PCB Back PNG]: output/img/lk7d-pcb-bottom.png
+[PCB Front]: output/pcb/img/lk7d-pcb-top.svg
+[PCB Front PNG]: output/pcb/img/lk7d-pcb-top.png
+[PCB Back]: output/pcb/img/lk7d-pcb-bottom.svg
+[PCB Back PNG]: output/pcb/img/lk7d-pcb-bottom.png
 
 The PCB has been designed in [KiCad EDA 9.0](https://www.kicad.org/) using the [`kicad-lkbd`](https://github.com/lambdakb/kicad-lkbd) libraries.
 
@@ -51,7 +51,7 @@ The exported schematic is also available under [`output/schematics`](output/sche
 | ------------------------ | --------------------------------------------------- | :------: | :------: | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | PCB                      | [LK7D PCB](./pcb/)                                  |    1     |    ❌    | The PCB itself.                                                                                                                                           |
 | XIAO RP2040 Controller   | [SeeedStudio XIAO RP2040]                           |    1     |    ❌    | Main controller for QMK/Vial.                                                                                                                             |
-| 1N418 Diodes             | [1N4148W T4 SOD-323]                                |    7     |    ❌    | Switch matrix diodes. One MUST be installed under the encoder.                                                                                            |
+| 1N418 Diodes             | [1N4148W T4 SOD-323]                                |     7     |    ❌    | Switch matrix diodes. One MUST be installed under the encoder.                                                                                            |
 | Kailh Hot-Swap Sockets   | [CPG151101S11-16]                                   |    6     |    ❌    | MX style hot-swap sockets.                                                                                                                                |
 | Key Switches             | Any [Cherry MX] Compatible Switch                   |    6     |    ❌    | MX style switches.                                                                                                                                        |
 | Rotary Encoder           | Any [EC11] / [EC12] style 5-pin Encoder             |    1     |    ❌    | Can be installed either in top left or top right of the PCB. Only one per PCB is supported.                                                               |

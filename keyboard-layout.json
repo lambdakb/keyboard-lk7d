@@ -1,0 +1,31 @@
+[
+  {
+    "css": ".keyborder[style*=\"#ff0000\"] {\n    border-radius: 50% !important;\n    background-color: #ccc !important;\n}\n.keytop[style*=\"#ff4223\"] {\n    border-radius: 50% !important;\n    background-color: #fff !important;\n}"
+  },
+  [
+    {
+      "c": "#ff0000",
+      "p": "CHICKLET",
+      "a": 7
+    },
+    "E",
+    {
+      "x": 1
+    },
+    "E"
+  ],
+  [
+    {
+      "c": "#cccccc",
+      "p": ""
+    },
+    "M1",
+    "M2",
+    "M3"
+  ],
+  [
+    "M4",
+    "M5",
+    "M6"
+  ]
+]
