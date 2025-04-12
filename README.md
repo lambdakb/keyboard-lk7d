@@ -47,19 +47,18 @@ The exported schematic is also available under [`output/schematics`](output/sche
 
 ### BOM
 
-| Part                   | Ref.                                           | Quantity | Optional | Remarks                                                                                     |
-| ---------------------- | ---------------------------------------------- | :------: | :------: | ------------------------------------------------------------------------------------------- |
-| PCB                    | [LK7D PCB](./pcb/)                             |    1     |    ❌    | The PCB itself.                                                                             |
-| XIAO RP2040 Controller | [SeeedStudio XIAO RP2040]                      |    1     |    ❌    | Main controller for QMK/Vial.                                                               |
-| 1N418 Diodes           | [1N4148W T4 SOD-323] (SMD)                     |    7     |    ❌    | Switch matrix diodes. One MUST be installed under the encoder.                              |
-| Kailh Hot-Swap Sockets | [CPG151101S11-16] (SMD)                        |    6     |    ❌    | MX style hot-swap sockets.                                                                  |
-| Key Switches           | Any [Cherry MX] Compatible Switch              |    6     |    ❌    | MX style switches.                                                                          |
-| Rotary Encoder(s)      | Any [EC11] / [EC12] style 5-pin Encoder        |    1     |    ❌    | Can be installed either in top left or top right of the PCB. Only one per PCB is supported. |
-| 100nF Capacitor(s)     | [1206 SMD Ceramic Capacitor] (SMD)             |    2     |    ✅    | Both should be installed if populated, used for noise filtering of encoder readings.        |
-| 0.91" OLED Display     | [SSD1306 0.91" 128X32 OLED I²C Display Module] |    1     |    ✅    | Optional, occupies the place of the non-populated encoder and sits on top of the XIAO MCU.  |
-| RGB LEDs               | [SK6812MINI-E] (SMD)                           |    6     |    ✅    | Optional, RGB LEDs can be installed under each key switch.                                  |
-
-<!-- NOTE: should we create a separate BOM for the case if we provide two different case ? -->
+| Part                     | Ref.                                                | Quantity | Optional | Remarks                                                                                                                                                   |
+| ------------------------ | --------------------------------------------------- | :------: | :------: | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| PCB                      | [LK7D PCB](./pcb/)                                  |    1     |    ❌    | The PCB itself.                                                                                                                                           |
+| XIAO RP2040 Controller   | [SeeedStudio XIAO RP2040]                           |    1     |    ❌    | Main controller for QMK/Vial.                                                                                                                             |
+| 1N418 Diodes             | [1N4148W T4 SOD-323]                                |    7     |    ❌    | Switch matrix diodes. One MUST be installed under the encoder.                                                                                            |
+| Kailh Hot-Swap Sockets   | [CPG151101S11-16]                                   |    6     |    ❌    | MX style hot-swap sockets.                                                                                                                                |
+| Key Switches             | Any [Cherry MX] Compatible Switch                   |    6     |    ❌    | MX style switches.                                                                                                                                        |
+| Rotary Encoder           | Any [EC11] / [EC12] style 5-pin Encoder             |    1     |    ❌    | Can be installed either in top left or top right of the PCB. Only one per PCB is supported.                                                               |
+| 100nF Capacitor          | [1206 SMD Ceramic Capacitor]                        |   2-3    |    ✅    | Both C1 and C2 should be installed if populated, used for noise filtering of encoder readings. C3 is only required if a Logic Level Shifter is installed. |
+| 0.91" OLED Display       | [SSD1306 0.91" 128X32 OLED I²C Display Module]      |    1     |    ✅    | Optional, occupies the place of the non-populated encoder and sits on top of the XIAO MCU.                                                                |
+| RGB LEDs                 | [SK6812MINI-E]                                      |    6     |    ✅    | Optional, RGB LEDs can be installed under each key switch.                                                                                                |
+| 5V Logic Level Converter | [SN74AHCT1G125DBVR] or [SN74LV1T125DBVR] (SOT-23-5) |    1     |    ✅    | Optional, required if your RGB LEDs are not 3.3V logic tolerant. You MUST cut the JP1 jumper if populated.                                                |
 
 [SeeedStudio XIAO RP2040]: https://www.seeedstudio.com/XIAO-RP2040-v1-0-p-5026.html
 [1N4148W T4 SOD-323]: https://www.aliexpress.com/item/1005006127619725.html
@@ -70,6 +69,8 @@ The exported schematic is also available under [`output/schematics`](output/sche
 [1206 SMD ceramic capacitor]: https://www.aliexpress.com/item/32966490820.html
 [SSD1306 0.91" 128X32 OLED I²C Display Module]: https://www.aliexpress.com/item/32777216785.html
 [SK6812MINI-E]: https://www.aliexpress.com/item/1005006473087141.html
+[SN74AHCT1G125DBVR]: https://www.aliexpress.com/item/1005005379322968.html
+[SN74LV1T125DBVR]: https://www.digikey.com/en/products/detail/texas-instruments/SN74LV1T125DBVR/4555571
 
 ## Case
 
