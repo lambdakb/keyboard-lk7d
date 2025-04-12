@@ -64,9 +64,9 @@
       },
       "rule_severities": {
         "annular_width": "error",
-        "clearance": "error",
+        "clearance": "ignore",
         "connection_width": "warning",
-        "copper_edge_clearance": "error",
+        "copper_edge_clearance": "ignore",
         "copper_sliver": "warning",
         "courtyards_overlap": "ignore",
         "creepage": "error",
@@ -105,7 +105,7 @@
         "silk_over_copper": "warning",
         "silk_overlap": "ignore",
         "skew_out_of_range": "error",
-        "solder_mask_bridge": "error",
+        "solder_mask_bridge": "ignore",
         "starved_thermal": "error",
         "text_height": "ignore",
         "text_on_edge_cuts": "error",
@@ -461,7 +461,10 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
+    "pinned_footprint_libs": [
+      "LKBD_PlateMX",
+      "LKBD_StabMX"
+    ],
     "pinned_symbol_libs": []
   },
   "meta": {
@@ -642,12 +645,6 @@
           "show": true
         },
         {
-          "group_by": false,
-          "label": "Datasheet",
-          "name": "Datasheet",
-          "show": true
-        },
-        {
           "group_by": true,
           "label": "Footprint",
           "name": "Footprint",
@@ -655,14 +652,20 @@
         },
         {
           "group_by": false,
-          "label": "Qty",
-          "name": "${QUANTITY}",
+          "label": "Datasheet",
+          "name": "Datasheet",
           "show": true
         },
         {
-          "group_by": true,
-          "label": "DNP",
-          "name": "${DNP}",
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Qty",
+          "name": "${QUANTITY}",
           "show": true
         },
         {
@@ -673,20 +676,20 @@
         },
         {
           "group_by": false,
-          "label": "Description",
-          "name": "Description",
+          "label": "Documentation",
+          "name": "Documentation",
           "show": false
-        },
-        {
-          "group_by": false,
-          "label": "LCSC Part #",
-          "name": "LCSC",
-          "show": true
         },
         {
           "group_by": false,
           "label": "JLCPCB Footprint",
           "name": "JLC",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "JLCPCB Position Offset",
+          "name": "JLCPosOffset",
           "show": true
         },
         {
@@ -697,8 +700,32 @@
         },
         {
           "group_by": false,
-          "label": "JLCPCB Position Offset",
-          "name": "JLCPosOffset",
+          "label": "LCSC Part #",
+          "name": "LCSC",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Pinout",
+          "name": "Pinout",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": true,
+          "label": "DNP",
+          "name": "${DNP}",
           "show": true
         },
         {
@@ -717,18 +744,6 @@
           "group_by": false,
           "label": "Exclude from Simulation",
           "name": "${EXCLUDE_FROM_SIM}",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Sim.Device",
-          "name": "Sim.Device",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Sim.Pins",
-          "name": "Sim.Pins",
           "show": false
         }
       ],

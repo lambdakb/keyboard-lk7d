@@ -927,15 +927,17 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "LED"
-				(at 0 7.112 0)
+				(at 0 -7.112 0)
+				(do_not_autoplace)
 				(effects
 					(font
-						(size 1.524 1.524)
+						(size 1.27 1.27)
 					)
 				)
 			)
 			(property "Value" "SK6812MINI-E"
-				(at 0 -7.112 0)
+				(at 0 -9.398 0)
+				(do_not_autoplace)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -943,7 +945,7 @@
 				)
 			)
 			(property "Footprint" "LKBD_Common:LED_SK6812MINI-E"
-				(at 0 -13.716 0)
+				(at 0 -16.256 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -952,7 +954,7 @@
 				)
 			)
 			(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4960/4960_SK6812MINI-E_REV02_EN.pdf"
-				(at -0.254 -11.43 0)
+				(at 0 -13.716 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -960,8 +962,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "SK6812 MINI-E Reverse Mounted RGB LED (NeoPixel / WS2812B compatible)"
-				(at 0 -9.398 0)
+			(property "Description" "SK6812MINI-E Reverse Mounted RGB LED"
+				(at 0 -11.43 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1168,7 +1170,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at 0 12.446 0)
+				(at 0 12.192 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1176,7 +1178,7 @@
 				)
 			)
 			(property "Value" "XIAO-RP2040"
-				(at 0 -12.446 0)
+				(at 0 -12.192 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1184,7 +1186,7 @@
 				)
 			)
 			(property "Footprint" "LKBD_MCU:MCU_XIAO-RP2040"
-				(at 0.254 -17.272 0)
+				(at 0.254 -21.59 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1192,7 +1194,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://wiki.seeedstudio.com/XIAO-RP2040/"
+			(property "Datasheet" ""
 				(at 0 -14.986 0)
 				(effects
 					(font
@@ -1201,7 +1203,34 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "SeeedStudio XIAO RP2040"
+				(at 0 -14.478 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Documentation" "https://wiki.seeedstudio.com/XIAO-RP2040/"
+				(at 0 -19.05 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Pinout" "https://files.seeedstudio.com/wiki/XIAO-RP2040/img/xinpin.jpg"
+				(at 0 -16.764 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "SeeedStudio XIAO RP2040"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2623,16 +2652,10 @@
 		(uuid "def6a816-1372-4eae-9379-aa5d27bb28cd")
 	)
 	(junction
-		(at 87.63 87.63)
+		(at 34.29 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "01827f31-2550-4a71-9cd0-4136b9260a8c")
-	)
-	(junction
-		(at 174.625 96.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "26689090-f3f7-4951-8e61-09be4e687260")
+		(uuid "20042646-a551-42ad-9955-bc42a7983f13")
 	)
 	(junction
 		(at 53.34 71.12)
@@ -2641,16 +2664,16 @@
 		(uuid "3b32c63e-37ff-4553-9204-06ca8e459648")
 	)
 	(junction
-		(at 189.865 73.025)
+		(at 190.5 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4981139d-a51a-432d-b97b-9c6883224d9f")
 	)
 	(junction
-		(at 34.29 87.63)
+		(at 175.26 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5a80e2cf-8c24-494a-a4e9-ccd39bbb9f6f")
+		(uuid "4e917223-39a2-4fb0-9d86-727653a4c406")
 	)
 	(junction
 		(at 60.96 87.63)
@@ -2659,10 +2682,10 @@
 		(uuid "5e54fd79-d4a4-4c96-ace9-b72516818ed7")
 	)
 	(junction
-		(at 87.63 68.58)
+		(at 87.63 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5f340133-e628-4dd6-b592-6884a0ccf38b")
+		(uuid "5f321794-cf43-487b-9f83-62b6ad3cca83")
 	)
 	(junction
 		(at 71.12 95.25)
@@ -2683,7 +2706,13 @@
 		(uuid "86c3c4dc-9a23-49b0-b564-f91be1906972")
 	)
 	(junction
-		(at 160.655 73.025)
+		(at 146.05 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "89bd7252-f92d-48b1-b8b1-a81b089dce60")
+	)
+	(junction
+		(at 161.29 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a38c0499-4948-4593-b4ab-4685cb1f603e")
@@ -2707,25 +2736,13 @@
 		(uuid "acdc7763-2eac-42a5-be7f-5d8fc8c5bc2c")
 	)
 	(junction
-		(at 150.495 45.085)
+		(at 151.13 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b8dca44e-f5f5-4385-8ecd-d2134249922a")
 	)
-	(junction
-		(at 34.29 68.58)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c635f450-7b58-4c1b-b007-85a3ac100051")
-	)
-	(junction
-		(at 145.415 96.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dab42f3a-845f-47d2-acbe-69bd3c9ebfad")
-	)
 	(no_connect
-		(at 145.415 106.045)
+		(at 146.05 106.68)
 		(uuid "e3d7e613-c463-4936-a187-36f473e8e5ee")
 	)
 	(wire
@@ -2740,7 +2757,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.865 73.025) (xy 219.075 73.025)
+			(xy 190.5 73.66) (xy 219.71 73.66)
 		)
 		(stroke
 			(width 0)
@@ -2760,7 +2777,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.835 96.52) (xy 203.835 100.965)
+			(xy 204.47 96.52) (xy 204.47 101.6)
 		)
 		(stroke
 			(width 0)
@@ -2770,7 +2787,7 @@
 	)
 	(wire
 		(pts
-			(xy 174.625 78.105) (xy 167.64 78.105)
+			(xy 175.26 78.74) (xy 168.91 78.74)
 		)
 		(stroke
 			(width 0)
@@ -2790,16 +2807,6 @@
 	)
 	(wire
 		(pts
-			(xy 174.625 96.52) (xy 174.625 100.965)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "097709ef-2bf2-4310-949e-10860e9c3b80")
-	)
-	(wire
-		(pts
 			(xy 58.42 26.67) (xy 57.15 26.67)
 		)
 		(stroke
@@ -2810,7 +2817,7 @@
 	)
 	(wire
 		(pts
-			(xy 145.415 24.765) (xy 153.035 24.765)
+			(xy 146.05 24.13) (xy 153.67 24.13)
 		)
 		(stroke
 			(width 0)
@@ -2820,7 +2827,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 100.965) (xy 160.655 100.965)
+			(xy 168.91 101.6) (xy 161.29 101.6)
 		)
 		(stroke
 			(width 0)
@@ -2870,7 +2877,27 @@
 	)
 	(wire
 		(pts
-			(xy 150.495 37.465) (xy 150.495 38.735)
+			(xy 74.93 68.58) (xy 80.01 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1db65291-52a8-4bea-871b-0b570fcab85f")
+	)
+	(wire
+		(pts
+			(xy 175.26 96.52) (xy 175.26 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e1947c1-87c1-4bbe-9674-d4a54ced9733")
+	)
+	(wire
+		(pts
+			(xy 151.13 38.1) (xy 151.13 39.37)
 		)
 		(stroke
 			(width 0)
@@ -2900,7 +2927,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.065 29.845) (xy 139.065 37.465)
+			(xy 139.7 30.48) (xy 139.7 38.1)
 		)
 		(stroke
 			(width 0)
@@ -2920,7 +2947,7 @@
 	)
 	(wire
 		(pts
-			(xy 174.625 83.185) (xy 174.625 88.265)
+			(xy 175.26 83.82) (xy 175.26 88.9)
 		)
 		(stroke
 			(width 0)
@@ -2930,7 +2957,27 @@
 	)
 	(wire
 		(pts
-			(xy 145.415 96.52) (xy 145.415 100.965)
+			(xy 87.63 87.63) (xy 87.63 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e934d25-7bd3-409e-97d0-5f9e8b384664")
+	)
+	(wire
+		(pts
+			(xy 21.59 68.58) (xy 26.67 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3248b1bb-c406-4008-97dc-4ed032b2db6e")
+	)
+	(wire
+		(pts
+			(xy 146.05 96.52) (xy 146.05 101.6)
 		)
 		(stroke
 			(width 0)
@@ -2940,7 +2987,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.865 73.025) (xy 189.865 78.105)
+			(xy 190.5 73.66) (xy 190.5 78.74)
 		)
 		(stroke
 			(width 0)
@@ -2950,7 +2997,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.885 100.965) (xy 219.075 100.965)
+			(xy 223.52 101.6) (xy 219.71 101.6)
 		)
 		(stroke
 			(width 0)
@@ -2960,7 +3007,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.835 88.265) (xy 203.835 83.185)
+			(xy 204.47 88.9) (xy 204.47 83.82)
 		)
 		(stroke
 			(width 0)
@@ -2980,7 +3027,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.865 83.185) (xy 196.215 83.185)
+			(xy 190.5 83.82) (xy 196.85 83.82)
 		)
 		(stroke
 			(width 0)
@@ -2990,7 +3037,17 @@
 	)
 	(wire
 		(pts
-			(xy 145.415 96.52) (xy 174.625 96.52)
+			(xy 21.59 63.5) (xy 34.29 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4029c523-cd0b-4643-9593-3b1ceee20e12")
+	)
+	(wire
+		(pts
+			(xy 146.05 96.52) (xy 175.26 96.52)
 		)
 		(stroke
 			(width 0)
@@ -3000,7 +3057,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.655 73.025) (xy 189.865 73.025)
+			(xy 161.29 73.66) (xy 190.5 73.66)
 		)
 		(stroke
 			(width 0)
@@ -3020,7 +3077,7 @@
 	)
 	(wire
 		(pts
-			(xy 150.495 43.815) (xy 150.495 45.085)
+			(xy 151.13 44.45) (xy 151.13 45.72)
 		)
 		(stroke
 			(width 0)
@@ -3040,7 +3097,7 @@
 	)
 	(wire
 		(pts
-			(xy 174.625 96.52) (xy 203.835 96.52)
+			(xy 175.26 96.52) (xy 204.47 96.52)
 		)
 		(stroke
 			(width 0)
@@ -3060,7 +3117,7 @@
 	)
 	(wire
 		(pts
-			(xy 174.625 106.045) (xy 167.64 106.045)
+			(xy 175.26 106.68) (xy 168.91 106.68)
 		)
 		(stroke
 			(width 0)
@@ -3080,7 +3137,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 106.045) (xy 167.64 100.965)
+			(xy 168.91 106.68) (xy 168.91 101.6)
 		)
 		(stroke
 			(width 0)
@@ -3110,17 +3167,7 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 68.58) (xy 34.29 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6708438c-49d9-4c2f-95e5-4a077729661a")
-	)
-	(wire
-		(pts
-			(xy 87.63 87.63) (xy 87.63 109.22)
+			(xy 87.63 76.2) (xy 87.63 87.63)
 		)
 		(stroke
 			(width 0)
@@ -3150,7 +3197,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.065 96.52) (xy 145.415 96.52)
+			(xy 139.7 96.52) (xy 146.05 96.52)
 		)
 		(stroke
 			(width 0)
@@ -3170,7 +3217,7 @@
 	)
 	(wire
 		(pts
-			(xy 131.445 37.465) (xy 131.445 45.085)
+			(xy 132.08 38.1) (xy 132.08 45.72)
 		)
 		(stroke
 			(width 0)
@@ -3180,7 +3227,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.885 83.185) (xy 222.885 100.965)
+			(xy 223.52 83.82) (xy 223.52 101.6)
 		)
 		(stroke
 			(width 0)
@@ -3190,7 +3237,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 78.105) (xy 167.64 83.185)
+			(xy 168.91 78.74) (xy 168.91 83.82)
 		)
 		(stroke
 			(width 0)
@@ -3220,17 +3267,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 68.58) (xy 87.63 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "78f7ba11-d13b-4312-b8ce-00e265416dbc")
-	)
-	(wire
-		(pts
-			(xy 139.065 73.025) (xy 160.655 73.025)
+			(xy 139.7 73.66) (xy 161.29 73.66)
 		)
 		(stroke
 			(width 0)
@@ -3250,7 +3287,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.215 78.105) (xy 203.835 78.105)
+			(xy 196.85 78.74) (xy 204.47 78.74)
 		)
 		(stroke
 			(width 0)
@@ -3270,6 +3307,16 @@
 	)
 	(wire
 		(pts
+			(xy 34.29 87.63) (xy 34.29 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85f877ab-5b2d-4d74-8f2a-a5e1cd02b57a")
+	)
+	(wire
+		(pts
 			(xy 66.04 40.64) (xy 57.15 40.64)
 		)
 		(stroke
@@ -3280,7 +3327,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.655 73.025) (xy 160.655 78.105)
+			(xy 161.29 73.66) (xy 161.29 78.74)
 		)
 		(stroke
 			(width 0)
@@ -3300,7 +3347,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.065 52.705) (xy 139.065 59.69)
+			(xy 139.7 53.34) (xy 139.7 60.96)
 		)
 		(stroke
 			(width 0)
@@ -3330,27 +3377,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 87.63) (xy 34.29 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "94a5f0e6-f6b1-4337-9b01-690f565192ee")
-	)
-	(wire
-		(pts
-			(xy 21.59 63.5) (xy 26.67 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "982e5c9b-2ee3-42ac-8fc0-76975662d45a")
-	)
-	(wire
-		(pts
-			(xy 132.08 78.105) (xy 145.415 78.105)
+			(xy 133.35 78.74) (xy 146.05 78.74)
 		)
 		(stroke
 			(width 0)
@@ -3370,7 +3397,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.215 100.965) (xy 189.865 100.965)
+			(xy 196.85 101.6) (xy 190.5 101.6)
 		)
 		(stroke
 			(width 0)
@@ -3380,7 +3407,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.835 106.045) (xy 196.215 106.045)
+			(xy 204.47 106.68) (xy 196.85 106.68)
 		)
 		(stroke
 			(width 0)
@@ -3400,13 +3427,23 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 63.5) (xy 80.01 63.5)
+			(xy 34.29 76.2) (xy 34.29 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b535582c-a8dd-4c05-bbe9-d77603effd34")
+		(uuid "b16b7af8-2493-4df1-b4ba-6d56d99de606")
+	)
+	(wire
+		(pts
+			(xy 74.93 63.5) (xy 87.63 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6c78be8-31f8-4a54-9e76-36805b9dea2f")
 	)
 	(wire
 		(pts
@@ -3420,7 +3457,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 83.185) (xy 160.655 83.185)
+			(xy 168.91 83.82) (xy 161.29 83.82)
 		)
 		(stroke
 			(width 0)
@@ -3430,7 +3467,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.885 83.185) (xy 219.075 83.185)
+			(xy 223.52 83.82) (xy 219.71 83.82)
 		)
 		(stroke
 			(width 0)
@@ -3460,7 +3497,7 @@
 	)
 	(wire
 		(pts
-			(xy 145.415 88.265) (xy 145.415 83.185)
+			(xy 146.05 88.9) (xy 146.05 83.82)
 		)
 		(stroke
 			(width 0)
@@ -3470,7 +3507,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.075 111.125) (xy 219.075 106.045)
+			(xy 219.71 111.76) (xy 219.71 106.68)
 		)
 		(stroke
 			(width 0)
@@ -3490,7 +3527,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.175 24.765) (xy 137.795 24.765)
+			(xy 130.81 24.13) (xy 138.43 24.13)
 		)
 		(stroke
 			(width 0)
@@ -3560,7 +3597,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.215 83.185) (xy 196.215 78.105)
+			(xy 196.85 83.82) (xy 196.85 78.74)
 		)
 		(stroke
 			(width 0)
@@ -3570,7 +3607,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.655 111.125) (xy 160.655 106.045)
+			(xy 161.29 111.76) (xy 161.29 106.68)
 		)
 		(stroke
 			(width 0)
@@ -3580,17 +3617,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 68.58) (xy 34.29 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f58079ad-6a30-4581-8481-77068f9f76cb")
-	)
-	(wire
-		(pts
-			(xy 189.865 111.125) (xy 189.865 106.045)
+			(xy 190.5 111.76) (xy 190.5 106.68)
 		)
 		(stroke
 			(width 0)
@@ -3610,7 +3637,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.685 45.085) (xy 150.495 45.085)
+			(xy 147.32 45.72) (xy 151.13 45.72)
 		)
 		(stroke
 			(width 0)
@@ -3630,16 +3657,6 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 68.58) (xy 87.63 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe8566f8-5601-4e5b-95a0-33ee8f402b7e")
-	)
-	(wire
-		(pts
 			(xy 71.12 95.25) (xy 97.79 95.25)
 		)
 		(stroke
@@ -3650,7 +3667,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.215 106.045) (xy 196.215 100.965)
+			(xy 196.85 106.68) (xy 196.85 101.6)
 		)
 		(stroke
 			(width 0)
@@ -3660,7 +3677,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.075 73.025) (xy 219.075 78.105)
+			(xy 219.71 73.66) (xy 219.71 78.74)
 		)
 		(stroke
 			(width 0)
@@ -3670,7 +3687,7 @@
 	)
 	(wire
 		(pts
-			(xy 150.495 45.085) (xy 153.67 45.085)
+			(xy 151.13 45.72) (xy 154.94 45.72)
 		)
 		(stroke
 			(width 0)
@@ -3688,6 +3705,16 @@
 		)
 		(uuid "030fd567-5898-496f-8d49-bf34df45d587")
 	)
+	(label "ROW0"
+		(at 21.59 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0de6df20-59ee-4385-8c4d-0da4e8d7cd23")
+	)
 	(label "LEDIO"
 		(at 66.04 33.02 180)
 		(effects
@@ -3699,7 +3726,7 @@
 		(uuid "1f74b71c-cf48-439a-b6a4-2bc9a795c1e5")
 	)
 	(label "LEDIN"
-		(at 139.065 59.69 90)
+		(at 139.7 60.96 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3707,6 +3734,16 @@
 			(justify left bottom)
 		)
 		(uuid "223999db-a00f-4f76-a2a2-7ce23440e4b0")
+	)
+	(label "COL0"
+		(at 34.29 76.2 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "22cbc02d-22df-4ee2-95a4-69f3d8799e83")
 	)
 	(label "ENC1A"
 		(at 69.85 60.96 180)
@@ -3717,6 +3754,16 @@
 			(justify right bottom)
 		)
 		(uuid "2964ada6-ec43-4237-9be6-63c135c8f12b")
+	)
+	(label "COL2"
+		(at 74.93 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2c0c1c9e-cbdb-49fa-a5e6-158d154b7f8c")
 	)
 	(label "ROW1"
 		(at 20.32 30.48 0)
@@ -3759,7 +3806,7 @@
 		(uuid "416fd378-e1fb-45d2-9e5f-d5c823f44132")
 	)
 	(label "LEDIO"
-		(at 130.175 24.765 0)
+		(at 130.81 24.13 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3779,7 +3826,7 @@
 		(uuid "568829e1-fcec-419f-84b1-6a6356a7befc")
 	)
 	(label "LEDIN"
-		(at 153.035 24.765 180)
+		(at 153.67 24.13 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3798,6 +3845,26 @@
 		)
 		(uuid "608bfc5f-340c-4ddb-8382-8d9cb5f8e1b1")
 	)
+	(label "COL2"
+		(at 87.63 76.2 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "629f6e5f-0808-4df4-a919-a359619540df")
+	)
+	(label "ROW0"
+		(at 74.93 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "76e3a60e-c8e6-43b8-b0ba-4d84c3aac766")
+	)
 	(label "SDA"
 		(at 91.44 20.32 180)
 		(effects
@@ -3807,16 +3874,6 @@
 			(justify right bottom)
 		)
 		(uuid "83403d56-f985-4134-8013-1eaa310fa32a")
-	)
-	(label "ROW0"
-		(at 74.93 63.5 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8694f8c9-2f6f-4009-bcc7-7b83a54136cb")
 	)
 	(label "ENC1B"
 		(at 115.57 71.12 180)
@@ -3849,7 +3906,7 @@
 		(uuid "a82b14ce-d015-42a6-bf8a-4f304feec070")
 	)
 	(label "LEDIO"
-		(at 139.065 29.845 270)
+		(at 139.7 30.48 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3857,16 +3914,6 @@
 			(justify right bottom)
 		)
 		(uuid "a9443dd3-917f-4f85-8dd3-b036cf415f63")
-	)
-	(label "COL2"
-		(at 74.93 68.58 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "aa8bbe58-823e-4cd3-a2a9-469ee99c25ef")
 	)
 	(label "COL1"
 		(at 60.96 76.2 270)
@@ -3907,26 +3954,6 @@
 			(justify left bottom)
 		)
 		(uuid "b523b20c-3e26-4fce-919f-2e86313d2255")
-	)
-	(label "COL0"
-		(at 21.59 68.58 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b9160bc1-a0ce-4783-8c7c-931866e668cb")
-	)
-	(label "ROW0"
-		(at 21.59 63.5 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "bd753b16-6e13-41c6-a54b-4df2b7142624")
 	)
 	(label "SDA"
 		(at 20.32 35.56 0)
@@ -3978,8 +4005,18 @@
 		)
 		(uuid "de68d48e-eaa2-4691-8a71-45e20b7218c0")
 	)
+	(label "COL0"
+		(at 21.59 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e1ef65d5-b68c-48e1-a37d-c695765846d0")
+	)
 	(label "LEDIN"
-		(at 132.08 78.105 0)
+		(at 133.35 78.74 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4016,7 +4053,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+		(property "Footprint" "LKBD_Common:Capacitor_SMD_1206_inSilk"
 			(at 53.34 63.5 0)
 			(effects
 				(font
@@ -4121,7 +4158,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "LKBD_Common:Diode_SMD_SOD-123_inSilk"
 			(at 44.45 91.44 0)
 			(effects
 				(font
@@ -4193,7 +4230,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCRotOffset" ""
+		(property "JLCRotOffset" "180"
 			(at 44.45 91.44 0)
 			(effects
 				(font
@@ -4351,7 +4388,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 145.415 88.265 270)
+		(at 146.05 88.9 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4360,7 +4397,7 @@
 		(dnp no)
 		(uuid "1a4fdfe8-afd1-4b9d-b284-cfd2fbb09a1d")
 		(property "Reference" "#PWR017"
-			(at 139.065 88.265 0)
+			(at 139.7 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4369,7 +4406,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 141.605 88.265 90)
+			(at 142.24 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4378,7 +4415,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 145.415 88.265 0)
+			(at 146.05 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4387,7 +4424,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 145.415 88.265 0)
+			(at 146.05 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4396,7 +4433,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 145.415 88.265 0)
+			(at 146.05 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4443,7 +4480,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "LKBD_Common:Diode_SMD_SOD-123_inSilk"
 			(at 44.45 113.03 0)
 			(effects
 				(font
@@ -4515,7 +4552,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCRotOffset" ""
+		(property "JLCRotOffset" "180"
 			(at 44.45 113.03 0)
 			(effects
 				(font
@@ -4541,7 +4578,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 139.065 73.025 90)
+		(at 139.7 73.66 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4549,7 +4586,7 @@
 		(dnp no)
 		(uuid "1d7443f3-c807-496e-abd3-7688c9412fe2")
 		(property "Reference" "#PWR06"
-			(at 142.875 73.025 0)
+			(at 143.51 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4558,7 +4595,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 135.89 73.025 90)
+			(at 136.525 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4567,7 +4604,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 139.065 73.025 0)
+			(at 139.7 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4576,7 +4613,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 139.065 73.025 0)
+			(at 139.7 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4585,7 +4622,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 139.065 73.025 0)
+			(at 139.7 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4607,7 +4644,7 @@
 	)
 	(symbol
 		(lib_id "Logic_LevelTranslator:SN74LV1T125DBV")
-		(at 139.065 45.085 270)
+		(at 139.7 45.72 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4615,7 +4652,7 @@
 		(dnp yes)
 		(uuid "2a8452f7-d37b-4cb2-b6a4-d2626c26e0c6")
 		(property "Reference" "U2"
-			(at 145.415 47.625 90)
+			(at 146.05 48.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4624,7 +4661,7 @@
 			)
 		)
 		(property "Value" "SN74LV1T125DBV"
-			(at 145.415 50.165 90)
+			(at 146.05 50.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4633,7 +4670,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
-			(at 114.935 45.085 0)
+			(at 115.57 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4642,7 +4679,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lv1t125.pdf"
-			(at 117.475 45.085 0)
+			(at 118.11 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4651,7 +4688,25 @@
 			)
 		)
 		(property "Description" "Single Power Supply, Single Buffer Gate with 3-State Output, CMOS Logic Level Shifter Level Shifter, SOT-23-5"
-			(at 139.065 45.085 0)
+			(at 139.7 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" "SOT-23-5"
+			(at 139.7 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C7484"
+			(at 139.7 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4685,7 +4740,7 @@
 	)
 	(symbol
 		(lib_id "LKBD_LED:SK6812MINI-E")
-		(at 211.455 80.645 0)
+		(at 212.09 81.28 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4694,7 +4749,7 @@
 		(dnp no)
 		(uuid "31b9b40e-93ed-401d-bbb5-fe7c6b628c17")
 		(property "Reference" "LED3"
-			(at 211.455 87.63 0)
+			(at 212.09 88.265 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4702,7 +4757,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI-E"
-			(at 211.455 90.17 0)
+			(at 212.09 90.805 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4710,7 +4765,7 @@
 			)
 		)
 		(property "Footprint" "LKBD_Common:LED_SK6812MINI-E"
-			(at 211.455 80.645 0)
+			(at 212.09 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4719,7 +4774,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4960/4960_SK6812MINI-E_REV02_EN.pdf"
-			(at 211.455 80.645 0)
+			(at 212.09 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4727,8 +4782,35 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SK6812 MINI-E Reverse Mounted RGB LED (NeoPixel / WS2812B compatible)"
-			(at 211.709 80.645 0)
+		(property "Description" "SK6812MINI-E Reverse Mounted RGB LED"
+			(at 212.344 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" "SMD"
+			(at 212.09 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 212.09 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCRotOffset" "180"
+			(at 212.09 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4784,7 +4866,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "LKBD_Common:Diode_SMD_SOD-123_inSilk"
 			(at 71.12 91.44 0)
 			(effects
 				(font
@@ -4856,7 +4938,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCRotOffset" ""
+		(property "JLCRotOffset" "180"
 			(at 71.12 91.44 0)
 			(effects
 				(font
@@ -4950,7 +5032,7 @@
 	)
 	(symbol
 		(lib_id "LKBD_LED:SK6812MINI-E")
-		(at 182.245 103.505 0)
+		(at 182.88 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4958,7 +5040,7 @@
 		(dnp no)
 		(uuid "3db3a1ac-54c1-4a93-8316-ffe3461c01db")
 		(property "Reference" "LED5"
-			(at 182.245 110.49 0)
+			(at 182.88 111.125 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4966,7 +5048,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI-E"
-			(at 182.245 113.03 0)
+			(at 182.88 113.665 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4974,7 +5056,7 @@
 			)
 		)
 		(property "Footprint" "LKBD_Common:LED_SK6812MINI-E"
-			(at 182.245 103.505 0)
+			(at 182.88 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4983,7 +5065,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4960/4960_SK6812MINI-E_REV02_EN.pdf"
-			(at 182.245 103.505 0)
+			(at 182.88 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4991,8 +5073,35 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SK6812 MINI-E Reverse Mounted RGB LED (NeoPixel / WS2812B compatible)"
-			(at 181.991 103.505 0)
+		(property "Description" "SK6812MINI-E Reverse Mounted RGB LED"
+			(at 182.626 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" "SMD"
+			(at 182.88 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 182.88 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCRotOffset" "180"
+			(at 182.88 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5099,7 +5208,7 @@
 	)
 	(symbol
 		(lib_id "LKBD_LED:SK6812MINI-E")
-		(at 153.035 103.505 0)
+		(at 153.67 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5107,7 +5216,7 @@
 		(dnp no)
 		(uuid "4523ff61-89a0-4fbe-9328-f7a214139ad8")
 		(property "Reference" "LED6"
-			(at 153.035 110.49 0)
+			(at 153.67 111.125 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5115,7 +5224,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI-E"
-			(at 153.035 113.03 0)
+			(at 153.67 113.665 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5123,7 +5232,7 @@
 			)
 		)
 		(property "Footprint" "LKBD_Common:LED_SK6812MINI-E"
-			(at 153.035 103.505 0)
+			(at 153.67 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5132,7 +5241,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4960/4960_SK6812MINI-E_REV02_EN.pdf"
-			(at 153.035 103.505 0)
+			(at 153.67 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5140,8 +5249,35 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SK6812 MINI-E Reverse Mounted RGB LED (NeoPixel / WS2812B compatible)"
-			(at 152.781 103.505 0)
+		(property "Description" "SK6812MINI-E Reverse Mounted RGB LED"
+			(at 153.416 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" "SMD"
+			(at 153.67 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 153.67 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCRotOffset" "180"
+			(at 153.67 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5172,7 +5308,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 131.445 37.465 180)
+		(at 132.08 38.1 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5180,7 +5316,7 @@
 		(dnp no)
 		(uuid "469fd186-46b6-4164-8051-013f476d2588")
 		(property "Reference" "#PWR0136"
-			(at 131.445 31.115 0)
+			(at 132.08 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5189,7 +5325,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 131.445 34.925 90)
+			(at 132.08 35.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5198,7 +5334,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 131.445 37.465 0)
+			(at 132.08 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5207,7 +5343,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 131.445 37.465 0)
+			(at 132.08 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5216,7 +5352,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 131.445 37.465 0)
+			(at 132.08 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5238,7 +5374,7 @@
 	)
 	(symbol
 		(lib_id "Diode:1N4148")
-		(at 30.48 63.5 0)
+		(at 30.48 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5246,7 +5382,7 @@
 		(dnp no)
 		(uuid "493b9d48-58a7-4f0d-b8e9-42c562a0c74f")
 		(property "Reference" "D1"
-			(at 28.575 60.96 0)
+			(at 28.575 71.755 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5255,7 +5391,7 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 28.575 59.055 0)
+			(at 28.575 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5263,8 +5399,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 30.48 63.5 0)
+		(property "Footprint" "LKBD_Common:Diode_SMD_SOD-123_inSilk"
+			(at 30.48 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5273,7 +5409,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 30.48 63.5 0)
+			(at 30.48 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5282,7 +5418,7 @@
 			)
 		)
 		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 30.48 63.5 0)
+			(at 30.48 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5291,7 +5427,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 30.48 63.5 0)
+			(at 30.48 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5300,7 +5436,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 30.48 63.5 0)
+			(at 30.48 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5309,7 +5445,7 @@
 			)
 		)
 		(property "LCSC" "C81598"
-			(at 30.48 63.5 0)
+			(at 30.48 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5318,7 +5454,7 @@
 			)
 		)
 		(property "JLC" "SOD-323"
-			(at 30.48 63.5 0)
+			(at 30.48 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5327,7 +5463,7 @@
 			)
 		)
 		(property "JLCPosOffset" ""
-			(at 30.48 63.5 0)
+			(at 30.48 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5335,8 +5471,8 @@
 				(hide yes)
 			)
 		)
-		(property "JLCRotOffset" ""
-			(at 30.48 63.5 0)
+		(property "JLCRotOffset" "180"
+			(at 30.48 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5351,7 +5487,7 @@
 			(uuid "b84662d1-afaf-4cc6-98ff-a5d2d5891b81")
 		)
 		(instances
-			(project "pcb2"
+			(project "lk7d-pcb"
 				(path "/76cb4e9e-c848-4f96-8850-cfdf3c15cc6a"
 					(reference "D1")
 					(unit 1)
@@ -5361,7 +5497,7 @@
 	)
 	(symbol
 		(lib_id "LKBD_LED:SK6812MINI-E")
-		(at 153.035 80.645 0)
+		(at 153.67 81.28 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5370,7 +5506,7 @@
 		(dnp no)
 		(uuid "52d33dea-8b0d-4036-a212-35e62bbe0b2c")
 		(property "Reference" "LED1"
-			(at 153.035 87.63 0)
+			(at 153.67 88.265 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5378,7 +5514,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI-E"
-			(at 153.035 90.17 0)
+			(at 153.67 90.805 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5386,7 +5522,7 @@
 			)
 		)
 		(property "Footprint" "LKBD_Common:LED_SK6812MINI-E"
-			(at 153.035 80.645 0)
+			(at 153.67 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5395,7 +5531,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4960/4960_SK6812MINI-E_REV02_EN.pdf"
-			(at 153.035 80.645 0)
+			(at 153.67 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5403,8 +5539,35 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SK6812 MINI-E Reverse Mounted RGB LED (NeoPixel / WS2812B compatible)"
-			(at 153.289 80.645 0)
+		(property "Description" "SK6812MINI-E Reverse Mounted RGB LED"
+			(at 153.924 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" "SMD"
+			(at 153.67 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 153.67 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCRotOffset" "180"
+			(at 153.67 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5435,7 +5598,7 @@
 	)
 	(symbol
 		(lib_id "LKBD_LED:SK6812MINI-E")
-		(at 211.455 103.505 0)
+		(at 212.09 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5443,7 +5606,7 @@
 		(dnp no)
 		(uuid "54d001e3-dd4e-4967-a499-488ebab6904b")
 		(property "Reference" "LED4"
-			(at 211.455 110.49 0)
+			(at 212.09 111.125 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5451,7 +5614,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI-E"
-			(at 211.455 113.03 0)
+			(at 212.09 113.665 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5459,7 +5622,7 @@
 			)
 		)
 		(property "Footprint" "LKBD_Common:LED_SK6812MINI-E"
-			(at 211.455 103.505 0)
+			(at 212.09 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5468,7 +5631,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4960/4960_SK6812MINI-E_REV02_EN.pdf"
-			(at 211.455 103.505 0)
+			(at 212.09 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5476,8 +5639,35 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SK6812 MINI-E Reverse Mounted RGB LED (NeoPixel / WS2812B compatible)"
-			(at 211.201 103.505 0)
+		(property "Description" "SK6812MINI-E Reverse Mounted RGB LED"
+			(at 211.836 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" "SMD"
+			(at 212.09 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 212.09 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCRotOffset" "180"
+			(at 212.09 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5508,7 +5698,7 @@
 	)
 	(symbol
 		(lib_id "LKBD_LED:SK6812MINI-E")
-		(at 182.245 80.645 0)
+		(at 182.88 81.28 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5517,7 +5707,7 @@
 		(dnp no)
 		(uuid "54dc6e22-baf7-47e3-8617-740102c14e9c")
 		(property "Reference" "LED2"
-			(at 182.245 87.63 0)
+			(at 182.88 88.265 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5525,7 +5715,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI-E"
-			(at 182.245 90.17 0)
+			(at 182.88 90.805 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5533,7 +5723,7 @@
 			)
 		)
 		(property "Footprint" "LKBD_Common:LED_SK6812MINI-E"
-			(at 182.245 80.645 0)
+			(at 182.88 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5542,7 +5732,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4960/4960_SK6812MINI-E_REV02_EN.pdf"
-			(at 182.245 80.645 0)
+			(at 182.88 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5550,8 +5740,35 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SK6812 MINI-E Reverse Mounted RGB LED (NeoPixel / WS2812B compatible)"
-			(at 182.499 80.645 0)
+		(property "Description" "SK6812MINI-E Reverse Mounted RGB LED"
+			(at 183.134 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" "SMD"
+			(at 182.88 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 182.88 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCRotOffset" "180"
+			(at 182.88 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5860,7 +6077,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:SolderJumper_2_Bridged")
-		(at 141.605 24.765 0)
+		(at 142.24 24.13 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -5869,7 +6086,7 @@
 		(fields_autoplaced yes)
 		(uuid "693ebdea-9171-4e38-ac93-f8ecdc804689")
 		(property "Reference" "JP1"
-			(at 141.605 19.05 0)
+			(at 142.24 18.415 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5877,7 +6094,7 @@
 			)
 		)
 		(property "Value" "SolderJumper_2_Bridged"
-			(at 141.605 21.59 0)
+			(at 142.24 20.955 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5885,7 +6102,7 @@
 			)
 		)
 		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
-			(at 141.605 24.765 0)
+			(at 142.24 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5894,7 +6111,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 141.605 24.765 0)
+			(at 142.24 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5903,7 +6120,7 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
-			(at 141.605 24.765 0)
+			(at 142.24 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5934,10 +6151,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "6e9d3c4b-0be3-4a12-ab5b-cc05aea4d1c5")
 		(property "Reference" "U1"
-			(at 43.18 17.78 0)
+			(at 43.18 18.415 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5945,7 +6161,7 @@
 			)
 		)
 		(property "Value" "XIAO-RP2040"
-			(at 43.18 20.32 0)
+			(at 43.18 20.955 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5970,7 +6186,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SeeedStudio XIAO RP2040"
+			(at 43.18 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Documentation" "https://wiki.seeedstudio.com/XIAO-RP2040/"
+			(at 43.18 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pinout" "https://files.seeedstudio.com/wiki/XIAO-RP2040/img/xinpin.jpg"
+			(at 43.18 49.784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" "SMD-14P"
+			(at 43.18 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C9900177322"
 			(at 43.18 33.02 0)
 			(effects
 				(font
@@ -6032,7 +6284,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 203.835 88.265 270)
+		(at 204.47 88.9 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6041,7 +6293,7 @@
 		(dnp no)
 		(uuid "72a00634-18cc-4230-aaae-e6ba48f1228b")
 		(property "Reference" "#PWR019"
-			(at 197.485 88.265 0)
+			(at 198.12 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6050,7 +6302,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 200.025 88.265 90)
+			(at 200.66 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6059,7 +6311,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 203.835 88.265 0)
+			(at 204.47 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6068,7 +6320,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 203.835 88.265 0)
+			(at 204.47 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6077,7 +6329,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 203.835 88.265 0)
+			(at 204.47 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6269,7 +6521,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 160.655 111.125 90)
+		(at 161.29 111.76 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6277,7 +6529,7 @@
 		(dnp no)
 		(uuid "7ba59175-66cb-4366-8ce5-15651bcc8444")
 		(property "Reference" "#PWR020"
-			(at 167.005 111.125 0)
+			(at 167.64 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6286,7 +6538,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 164.465 111.125 90)
+			(at 165.1 111.76 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6295,7 +6547,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 160.655 111.125 0)
+			(at 161.29 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6304,7 +6556,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 160.655 111.125 0)
+			(at 161.29 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6313,7 +6565,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 160.655 111.125 0)
+			(at 161.29 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6335,7 +6587,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 150.495 37.465 180)
+		(at 151.13 38.1 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6343,7 +6595,7 @@
 		(dnp no)
 		(uuid "7e354b2c-cd40-4978-92b9-214cfff5cf9c")
 		(property "Reference" "#PWR0138"
-			(at 150.495 31.115 0)
+			(at 151.13 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6352,7 +6604,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 150.495 34.925 90)
+			(at 151.13 35.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6361,7 +6613,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 150.495 37.465 0)
+			(at 151.13 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6370,7 +6622,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 150.495 37.465 0)
+			(at 151.13 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6379,7 +6631,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 150.495 37.465 0)
+			(at 151.13 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6535,7 +6787,7 @@
 	)
 	(symbol
 		(lib_id "Diode:1N4148")
-		(at 83.82 63.5 0)
+		(at 83.82 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6543,7 +6795,7 @@
 		(dnp no)
 		(uuid "984f5384-9613-4464-9855-bf87fc73e228")
 		(property "Reference" "D2"
-			(at 81.915 60.96 0)
+			(at 81.915 71.755 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6552,7 +6804,7 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 81.915 59.055 0)
+			(at 81.915 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6560,8 +6812,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 83.82 63.5 0)
+		(property "Footprint" "LKBD_Common:Diode_SMD_SOD-123_inSilk"
+			(at 83.82 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6570,7 +6822,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 83.82 63.5 0)
+			(at 83.82 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6579,7 +6831,7 @@
 			)
 		)
 		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 83.82 63.5 0)
+			(at 83.82 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6588,7 +6840,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 83.82 63.5 0)
+			(at 83.82 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6597,7 +6849,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 83.82 63.5 0)
+			(at 83.82 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6606,7 +6858,7 @@
 			)
 		)
 		(property "LCSC" "C81598"
-			(at 83.82 63.5 0)
+			(at 83.82 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6615,7 +6867,7 @@
 			)
 		)
 		(property "JLC" "SOD-323"
-			(at 83.82 63.5 0)
+			(at 83.82 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6624,7 +6876,7 @@
 			)
 		)
 		(property "JLCPosOffset" ""
-			(at 83.82 63.5 0)
+			(at 83.82 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6632,8 +6884,8 @@
 				(hide yes)
 			)
 		)
-		(property "JLCRotOffset" ""
-			(at 83.82 63.5 0)
+		(property "JLCRotOffset" "180"
+			(at 83.82 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6648,7 +6900,7 @@
 			(uuid "0b56dba3-cb70-49db-bf5c-84b44244545f")
 		)
 		(instances
-			(project "pcb2"
+			(project "lk7d-pcb"
 				(path "/76cb4e9e-c848-4f96-8850-cfdf3c15cc6a"
 					(reference "D2")
 					(unit 1)
@@ -6761,73 +7013,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 139.065 96.52 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a0e54330-74de-4acc-a7fd-103558e0648e")
-		(property "Reference" "#PWR03"
-			(at 142.875 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 135.89 96.5199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 139.065 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 139.065 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 139.065 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "55e686cd-5caa-4700-8859-59ceeaa05e89")
-		)
-		(instances
-			(project ""
-				(path "/76cb4e9e-c848-4f96-8850-cfdf3c15cc6a"
-					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Diode:1N4148")
 		(at 97.79 113.03 90)
 		(unit 1)
@@ -6854,7 +7039,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "LKBD_Common:Diode_SMD_SOD-123_inSilk"
 			(at 97.79 113.03 0)
 			(effects
 				(font
@@ -6926,7 +7111,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCRotOffset" ""
+		(property "JLCRotOffset" "180"
 			(at 97.79 113.03 0)
 			(effects
 				(font
@@ -6978,7 +7163,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+		(property "Footprint" "LKBD_Common:Capacitor_SMD_1206_inSilk"
 			(at 53.34 68.58 0)
 			(effects
 				(font
@@ -7229,7 +7414,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 189.865 111.125 90)
+		(at 190.5 111.76 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7237,7 +7422,7 @@
 		(dnp no)
 		(uuid "c11cc424-815d-437c-8d26-fdfa660a8673")
 		(property "Reference" "#PWR021"
-			(at 196.215 111.125 0)
+			(at 196.85 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7246,7 +7431,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 193.675 111.125 90)
+			(at 194.31 111.76 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7255,7 +7440,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 189.865 111.125 0)
+			(at 190.5 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7264,7 +7449,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 189.865 111.125 0)
+			(at 190.5 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7273,7 +7458,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 189.865 111.125 0)
+			(at 190.5 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7320,7 +7505,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "LKBD_Common:Diode_SMD_SOD-123_inSilk"
 			(at 71.12 113.03 0)
 			(effects
 				(font
@@ -7392,7 +7577,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCRotOffset" ""
+		(property "JLCRotOffset" "180"
 			(at 71.12 113.03 0)
 			(effects
 				(font
@@ -7561,7 +7746,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 174.625 88.265 270)
+		(at 175.26 88.9 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7570,7 +7755,7 @@
 		(dnp no)
 		(uuid "cf3a19ed-e250-4501-8cef-44c3dc493728")
 		(property "Reference" "#PWR018"
-			(at 168.275 88.265 0)
+			(at 168.91 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7579,7 +7764,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 170.815 88.265 90)
+			(at 171.45 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7588,7 +7773,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 174.625 88.265 0)
+			(at 175.26 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7597,7 +7782,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 174.625 88.265 0)
+			(at 175.26 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7606,7 +7791,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 174.625 88.265 0)
+			(at 175.26 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7653,7 +7838,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "LKBD_Common:Diode_SMD_SOD-123_inSilk"
 			(at 97.79 91.44 0)
 			(effects
 				(font
@@ -7725,7 +7910,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCRotOffset" ""
+		(property "JLCRotOffset" "180"
 			(at 97.79 91.44 0)
 			(effects
 				(font
@@ -7744,6 +7929,73 @@
 			(project "pcb2"
 				(path "/76cb4e9e-c848-4f96-8850-cfdf3c15cc6a"
 					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 139.7 96.52 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "def7a4cb-1b5c-4888-9ea7-9fd7e6d3a97e")
+		(property "Reference" "#PWR09"
+			(at 143.51 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 136.525 96.5199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.7 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 139.7 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f1b792a9-74d4-44fa-9837-6430e49d288b")
+		)
+		(instances
+			(project "lk7d-pcb"
+				(path "/76cb4e9e-c848-4f96-8850-cfdf3c15cc6a"
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -7855,7 +8107,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 150.495 41.275 0)
+		(at 151.13 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7864,7 +8116,7 @@
 		(fields_autoplaced yes)
 		(uuid "e67d5094-3c63-422f-83f6-41add51e3a69")
 		(property "Reference" "C3"
-			(at 153.67 40.0112 0)
+			(at 154.305 40.6462 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7873,7 +8125,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 153.67 42.5512 0)
+			(at 154.305 43.1862 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7881,8 +8133,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
-			(at 150.495 41.275 0)
+		(property "Footprint" "LKBD_Common:Capacitor_SMD_1206_inSilk"
+			(at 151.13 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7891,7 +8143,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 150.495 41.275 0)
+			(at 151.13 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7900,7 +8152,25 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 150.495 41.275 0)
+			(at 151.13 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" "1206"
+			(at 151.13 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C24497"
+			(at 151.13 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8005,7 +8275,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 219.075 111.125 90)
+		(at 219.71 111.76 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8013,7 +8283,7 @@
 		(dnp no)
 		(uuid "e87740e5-c0ac-4676-9361-e6f3b5541726")
 		(property "Reference" "#PWR022"
-			(at 225.425 111.125 0)
+			(at 226.06 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8022,7 +8292,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 222.885 111.125 90)
+			(at 223.52 111.76 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8031,7 +8301,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 219.075 111.125 0)
+			(at 219.71 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8040,7 +8310,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 219.075 111.125 0)
+			(at 219.71 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8049,7 +8319,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 219.075 111.125 0)
+			(at 219.71 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8279,7 +8549,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 153.67 45.085 270)
+		(at 154.94 45.72 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8287,7 +8557,7 @@
 		(dnp no)
 		(uuid "f9a154ae-acdd-4643-ab56-499d650ab1a9")
 		(property "Reference" "#PWR08"
-			(at 149.86 45.085 0)
+			(at 151.13 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8296,7 +8566,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 156.845 45.085 90)
+			(at 158.115 45.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8305,7 +8575,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 153.67 45.085 0)
+			(at 154.94 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8314,7 +8584,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 153.67 45.085 0)
+			(at 154.94 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8323,7 +8593,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 153.67 45.085 0)
+			(at 154.94 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8345,7 +8615,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 141.605 37.465 180)
+		(at 142.24 38.1 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8353,7 +8623,7 @@
 		(dnp no)
 		(uuid "fc822127-a7b6-43ca-8608-1d87639d59ad")
 		(property "Reference" "#PWR0137"
-			(at 141.605 31.115 0)
+			(at 142.24 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8362,7 +8632,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 141.605 34.925 90)
+			(at 142.24 35.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8371,7 +8641,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 141.605 37.465 0)
+			(at 142.24 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8380,7 +8650,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 141.605 37.465 0)
+			(at 142.24 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8389,7 +8659,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 141.605 37.465 0)
+			(at 142.24 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
