@@ -11,10 +11,9 @@ This was created as an experiment to learn more about designing PCBs and to have
 
 ## Layout
 
-![Layout 1](assets/layout-enc-right.png)
-![Layout 2](assets/layout-enc-left.png)
+![Layout](assets/layout.png)
 
-[Keyboard Layout Editor](https://www.keyboard-layout-editor.com/##@_css=.keyborder%5Bstyle*%2F=%22%23ff0000%22%5D%20%7B%0A%20%20%20%20border-radius%2F:%2050%25%20!important%2F%3B%0A%20%20%20%20background-color%2F:%20%23ccc%20!important%2F%3B%0A%7D%0A.keytop%5Bstyle*%2F=%22%23ff4223%22%5D%20%7B%0A%20%20%20%20border-radius%2F:%2050%25%20!important%2F%3B%0A%20%20%20%20background-color%2F:%20%23fff%20!important%2F%3B%0A%7D%3B&@_x:2&c=%23ff0000&p=CHICKLET&a:7%3B&=E%3B&@_y:-0.9&c=%23cccccc&p=FLAT&w:2&h:0.8%3B&=OLED%3B&@_y:-0.10000000000000009&p=R1%3B&=M1&=M2&=M3%3B&@=M4&=M5&=M6)
+[Keyboard Layout Editor](https://www.keyboard-layout-editor.com/##@_css=.keyborder%5Bstyle*%2F=%22%23ff0000%22%5D%20%7B%0A%20%20%20%20border-radius%2F:%2050%25%20!important%2F%3B%0A%20%20%20%20background-color%2F:%20%23ccc%20!important%2F%3B%0A%7D%0A.keytop%5Bstyle*%2F=%22%23ff4223%22%5D%20%7B%0A%20%20%20%20border-radius%2F:%2050%25%20!important%2F%3B%0A%20%20%20%20background-color%2F:%20%23fff%20!important%2F%3B%0A%7D%3B&@_x:2&c=%23ff0000&p=CHICKLET&a:7%3B&=E%3B&@_y:-0.9&c=%23cccccc&p=FLAT&w:2&h:0.8%3B&=OLED%3B&@_y:-0.10000000000000009&p=R1%3B&=M0&=M1&=M2%3B&@=M3&=M4&=M5)
 
 ## PCB
 
@@ -85,9 +84,31 @@ Coming soon.
 
 ## Firmware
 
-Firmware has been built using [Vial](https://get.vial.today/), a fork of [QMK](https://qmk.fm) allowing configuration through a nice GUI.
+The pre-build firmware available in this repository are compiled using [Vial](https://get.vial.today/) (a fork of [QMK](https://qmk.fm) allowing customization via a GUI).
 
-Details coming soon.
+As per the original license of both Vial and QMK, the firmware itself is licensed under the GPLv3 license and its source code is available at [`vial-qmk/keyboards/lambdakb/lk7d`](https://github.com/lambdakb/vial-qmk/tree/lambdakb/keyboards/lambdakb/lk7d).
+
+### Default Vial Keymap
+
+| Layer 0           | Layer 1           | Layer 2           | Layer 3           |
+| ----------------- | ----------------- | ----------------- | ----------------- |
+| ![Keymap Layer 0] | ![Keymap Layer 1] | ![Keymap Layer 2] | ![Keymap Layer 3] |
+
+[Keymap Layer 0]: assets/vial-default-layer0.png
+[Keymap Layer 1]: assets/vial-default-layer1.png
+[Keymap Layer 2]: assets/vial-default-layer2.png
+[Keymap Layer 3]: assets/vial-default-layer3.png
+
+Layer 4, 5 and 6 contains similar layouts with macro keys going from M15 to M29.
+
+### Vial Layout Options
+
+| Encoder Position: Left | Encoder Position: Right |
+| ---------------------- | ----------------------- |
+| ![Layout Encoder Left] | ![Layout Right Encoder] |
+
+[Layout Encoder Left]: assets/vial-layout-enc-left.png
+[Layout Right Encoder]: assets/vial-layout-enc-right.png
 
 ## License
 
