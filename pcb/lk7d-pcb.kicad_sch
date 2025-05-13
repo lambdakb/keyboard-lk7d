@@ -6021,7 +6021,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LKBD_KeySwitch:EC11_THT_sqSilk"
+		(property "Footprint" "LKBD_KeySwitch:ROT_EC11_THT_sqSilk"
 			(at 99.06 61.976 0)
 			(effects
 				(font
@@ -6168,7 +6168,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LKBD_MCU:MCU_XIAO-RP2040"
+		(property "Footprint" "LKBD_MCU:MCU_XIAO_RP2040"
 			(at 43.434 50.292 0)
 			(effects
 				(font
@@ -8219,7 +8219,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LKBD_KeySwitch:EC11_THT_sqSilk"
+		(property "Footprint" "LKBD_KeySwitch:ROT_EC11_THT_sqSilk"
 			(at 45.72 61.976 0)
 			(effects
 				(font

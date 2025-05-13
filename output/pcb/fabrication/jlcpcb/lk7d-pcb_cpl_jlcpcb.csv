@@ -21,4 +21,3 @@ Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
 "SW6","SW_Push","SW_MX_HotSwap_sqSilk",39.5250,-77.6250,0.0000,bottom
 "SW7","SW_Push","SW_MX_HotSwap_sqSilk",58.5750,-77.6250,0.0000,bottom
 "SW8","SW_Push","SW_MX_HotSwap_sqSilk",77.6250,-77.6250,0.0000,bottom
-"U1","XIAO-RP2040","MCU_XIAO-RP2040",58.5750,-31.5450,0.0000,top
